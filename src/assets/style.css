@@ -128,7 +128,7 @@ body {
 
     }
     .wrap_note{
-    width: 88%;
-    
+    width: 100%;
+    min-width: unset;
     }
 }
