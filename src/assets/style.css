@@ -130,5 +130,6 @@ body {
     .wrap_note{
     width: 100%;
     min-width: unset;
+    padding: 12px;
     }
 }
