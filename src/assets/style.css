@@ -82,7 +82,7 @@ body {
     text-align: center;
 }
 
-form {
+.group-from {
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
@@ -92,8 +92,8 @@ form {
     box-shadow: 0 1px 5px rgb(138, 137, 137);
 }
 
-form input,
-form textarea {
+.group-from input,
+.group-from textarea {
     width: 100%;
     border: none;
     padding: 4px;
@@ -103,7 +103,7 @@ form textarea {
     resize: none;
 }
 
-form button {
+.group-from button {
     position: absolute;
     right: 18px;
     bottom: -18px;
@@ -116,4 +116,15 @@ form button {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     outline: none;
+}
+
+@media( max-width: 63.9375em){
+    .group-from{
+        width:88%;
+    }
+    
+    .content{
+    justify-content: center;
+
+    }
 }

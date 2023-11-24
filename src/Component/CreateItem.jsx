@@ -38,7 +38,7 @@ const CreateItem = ({ onAdd, notes }) => {
   };
   return (
     <div>
-      <form>
+      <form className='group-from'>
         <input
           name="title"
           placeholder="Title"
