@@ -120,11 +120,14 @@ body {
 
 @media( max-width: 63.9375em){
     .group-from{
-        width:88%;
+        width:80%;
     }
     
     .content{
     justify-content: center;
 
+    }
+    .wrap_note{
+    width: 100%;
     }
 }
